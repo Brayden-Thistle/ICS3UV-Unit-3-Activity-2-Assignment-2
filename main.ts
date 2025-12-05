@@ -10,7 +10,7 @@ let Money: number;
 Money = Number(prompt("Input the cents please:"));
 
 //constants
-const dollars = (Money / 100);
+const dollars = (Money / 100).toFixed(0);
 const cents = (Money % 100);
 
 //output
